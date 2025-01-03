@@ -5,9 +5,20 @@
     box-sizing: border-box;
 }
 
+/* <uniquifier>: Use a unique and descriptive class name*/ 
+/* <weight>: Use a value from 300 to 800*/
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 /* Body Styling */
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Open Sans", serif;
     font-weight: 400;
     line-height: 1.6;
     background-color: #f0f4f8;
@@ -18,7 +29,7 @@ body {
 
 /* header and section font */
 header h1, section h2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Open Sans", serif;
     font-weight: 600;
 }
 /* Header */
