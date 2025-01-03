@@ -4,21 +4,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 300 to 800
-
-.open-sans-google {
-  font-family: "Open Sans", serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
 /* Body Styling */
 body {
     font-family: "Open Sans", serif;
-    font-weight: 400;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
     line-height: 1.6;
     background-color: #f0f4f8;
     color: #333;
