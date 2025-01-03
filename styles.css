@@ -87,6 +87,14 @@ section h2 {
     color: #005f73;
     text-align: center; /* Ensure section titles are centered */
 }
+.workout-section {
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+
+.workout-section.visible {
+    opacity: 1;
+}
 
 .exercise {
     margin-bottom: 20px;
