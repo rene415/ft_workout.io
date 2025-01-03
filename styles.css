@@ -1,0 +1,111 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f4f8;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #005f73;
+    color: #fff;
+    border-radius: 8px;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1rem;
+}
+
+/* Navigation */
+nav {
+    margin: 20px 0;
+    background: #e0fbfc;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #005f73;
+}
+
+/* Main Sections */
+main {
+    margin-top: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #e0fbfc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #005f73;
+}
+
+.exercise {
+    margin-bottom: 20px;
+}
+
+.exercise h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.exercise p {
+    margin-bottom: 5px;
+}
+
+iframe {
+    width: 100%;
+    height: 315px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #005f73;
+    color: #fff;
+    border-radius: 8px;
+}
