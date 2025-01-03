@@ -15,12 +15,6 @@ body {
     padding: 20px;
     text-align: center; /* Center-align all text globally */
 }
-
-/* header and section font */
-header h1, section h2 {
-    font-family: "Open Sans", serif;
-    font-weight: 600;
-}
 /* Header */
 header {
     text-align: center;
