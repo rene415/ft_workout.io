@@ -32,6 +32,9 @@ header {
 }
 
 header h1 {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 2rem;
     margin-bottom: 10px;
 }
