@@ -114,43 +114,43 @@ _______________________
 ## [Quads, Glutes, Calves](https://youtu.be/jf9PBwwNAMs?si=3pjC1jmwLnmU-bEa):
 _______________________
 
-### **QUADS/GLUTES:**
+### **QUADS:**
 1. **[Barbell Back Squat](https://youtu.be/PPmvh7gBTi0?si=uNL44nRlXYVKL2E6)**  
    - **Sets/Reps:** 4 sets of 6–8 reps  
    - **Tips:** Maintain an upright torso and descend until your thighs are parallel to the floor to engage both the quadriceps and gluteal muscles.
 
-3. **[Lunges](https://www.hybridcalisthenics.com/lunges)**  
+2. **[Lunges](https://www.hybridcalisthenics.com/lunges)**  
    - **Sets/Reps:** 3 sets of 12 reps per leg  
    - **Tips:** Keep your torso upright and take a step forward, lowering your hips until both knees are bent at about 90 degrees.
 
-5. **[Hip Thrusts](https://youtu.be/W86oVlnLqY4?si=Vpm7iF9veMKx_err)**  
+3. **[Hip Thrusts](https://youtu.be/W86oVlnLqY4?si=Vpm7iF9veMKx_err)**  
    - **Sets/Reps:** 4 sets of 10 reps  
    - **Tips:** Position your upper back on a bench with a barbell over your hips; drive through your heels to lift your hips, squeezing the glutes at the top.
 
-6. **[Bulgarian Split Squats](https://youtu.be/uODWo4YqbT8?si=EZKhK7VoeUTTdZ32)**  
+4. **[Bulgarian Split Squats](https://youtu.be/uODWo4YqbT8?si=EZKhK7VoeUTTdZ32)**  
    - **Sets/Reps:** 3 sets of 10 reps per leg  
    - **Tips:** Place your rear foot on a bench behind you; lower your hips until your front thigh is parallel to the floor, focusing on the quadriceps and glutes.
 
-7. **[Romanian Deadlifts](https://youtu.be/ZaTM37cfiDs?si=sQ1UHIKQaab8U7Ov)**  
-   - **Sets/Reps:** 4 sets of 5 reps  
-   - **Tips:** Keep your back straight and lift the barbell by extending your hips and knees simultaneously, engaging the posterior chain, including the glutes.
-
-8. **[Seated Leg Curl](https://youtu.be/aakNLjjm4Qo?si=Cg3m4xkYgT0uD26v)**
+5. **[Seated Leg Curl](https://youtu.be/aakNLjjm4Qo?si=Cg3m4xkYgT0uD26v)**
    - **Sets/Reps:** 3-4 sets of 10–12 reps 
    - **Tips:** Maintain proper posture with knees aligned to the machine’s pivot; focus on slow, full-range motions to maximize hamstring engagement and avoid locking knees at the top.
 
-9. **[Seated Leg Extensions](https://youtu.be/ztNBgrGy6FQ?si=b6loo0ZmWlhT6FwT)**  
+6. **[Seated Leg Extensions](https://youtu.be/ztNBgrGy6FQ?si=b6loo0ZmWlhT6FwT)**  
    - **Sets/Reps:** 3-4 sets of 10–12 reps
    - **Tips:** Align knees with the machine's pivot point, sit upright with back against the pad, and extend legs fully without locking knees at the top to maintain tension on the quads.
-
-10. **[Hip Adductions](https://youtu.be/ktLkqP1upq0?si=lsSeprhNjjWo47Dc)**  
+   
+### **GLUTES:**
+1. **[Hip Adductions](https://youtu.be/ktLkqP1upq0?si=lsSeprhNjjWo47Dc)**  
    - **Sets/Reps:** 2 sets of 15–20 reps
    - **Tips:** Sit upright with back supported, squeeze thighs inward slowly to engage inner thigh muscles fully, and avoid using momentum or leaning for proper isolation.
 
-11. **[Hip Abductions](https://youtu.be/K0tIapJBLS4?si=T6QlPFrc8AMvdyWr)**  
+2. **[Hip Abductions](https://youtu.be/K0tIapJBLS4?si=T6QlPFrc8AMvdyWr)**  
    - **Sets/Reps:** 2 sets of 15–20 reps
    - **Tips:** Sit upright with back supported, press thighs outward slowly to full range, and avoid jerking or leaning to maintain focus on the glute medius and outer thighs.
 
+3. **[Romanian Deadlifts](https://youtu.be/ZaTM37cfiDs?si=sQ1UHIKQaab8U7Ov)**  
+   - **Sets/Reps:** 4 sets of 5 reps  
+   - **Tips:** Keep your back straight and lift the barbell by extending your hips and knees simultaneously, engaging the posterior chain, including the glutes.
 ---
 
 ### **CALVES:**
