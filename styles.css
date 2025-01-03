@@ -87,15 +87,27 @@ section h2 {
     color: #005f73;
     text-align: center; /* Ensure section titles are centered */
 }
+/* work out collapse */
+.workout-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
 .workout-section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 10px 0;
+    height: 0;
     opacity: 0;
-    transition: opacity 0.3s ease-out;
+    overflow: hidden;
+    transition: height 0.5s ease-out, opacity 0.3s ease-out;
 }
 
 .workout-section.visible {
+    height: auto;
     opacity: 1;
 }
-
 .exercise {
     margin-bottom: 20px;
     text-align: center; /* Center-align individual exercises */
