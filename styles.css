@@ -96,7 +96,7 @@ section h2 {
 
 .exercise p {
     margin-bottom: 5px;
-    text-align: center; /* Center-align exercise details */
+    !text-align: center; /* Center-align exercise details */
 }
 
 iframe {
