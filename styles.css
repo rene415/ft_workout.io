@@ -12,6 +12,7 @@ body {
     background-color: #f0f4f8;
     color: #333;
     padding: 20px;
+    text-align: center; /* Center-align all text globally */
 }
 
 /* Header */
@@ -44,6 +45,7 @@ nav {
 
 nav ul {
     list-style: none;
+    text-align: center; /* Center-align navigation items */
 }
 
 nav ul li {
@@ -72,16 +74,19 @@ section {
     background-color: #e0fbfc;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center-align all text within sections */
 }
 
 section h2 {
     font-size: 1.5rem;
     margin-bottom: 10px;
     color: #005f73;
+    text-align: center; /* Ensure section titles are centered */
 }
 
 .exercise {
     margin-bottom: 20px;
+    text-align: center; /* Center-align individual exercises */
 }
 
 .exercise h3 {
@@ -91,6 +96,7 @@ section h2 {
 
 .exercise p {
     margin-bottom: 5px;
+    text-align: center; /* Center-align exercise details */
 }
 
 iframe {
@@ -98,6 +104,7 @@ iframe {
     height: 315px;
     border-radius: 8px;
     margin-top: 10px;
+    text-align: center;
 }
 
 /* Footer */
