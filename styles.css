@@ -88,7 +88,7 @@ section h2 {
     text-align: center; /* Ensure section titles are centered */
 }
 /* work out collapse */
-.workout-container {
+/* .workout-container {
     width: 80%;
     margin: 0 auto;
     padding: 20px 0;
@@ -107,7 +107,7 @@ section h2 {
 .workout-section.visible {
     height: auto;
     opacity: 1;
-}
+} */
 .exercise {
     margin-bottom: 20px;
     text-align: center; /* Center-align individual exercises */
