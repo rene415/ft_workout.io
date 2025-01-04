@@ -44,7 +44,6 @@ document.addEventListener("DOMContentLoaded", () => {
 //         observer.observe(section);
 //     });
 // });
-
 // CSS for dark mode (add this in styles.css)
 
 body.dark-mode {
