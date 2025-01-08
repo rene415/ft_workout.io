@@ -28,7 +28,32 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+// video image placeholder for the videos
+document.addEventListener("DOMContentLoaded", () => {
+    const videoPlaceholders = document.querySelectorAll('.video-placeholder');
 
+    videoPlaceholders.forEach(placeholder => {
+        const videoUrl = placeholder.getAttribute('data-video');
+        const thumbnail = placeholder.querySelector('img');
+        const playButton = placeholder.querySelector('.play-button');
+
+        // Add click event listener to load the iframe
+        placeholder.addEventListener('click', () => {
+            const iframe = document.createElement('iframe');
+            iframe.src = videoUrl;
+            iframe.width = "560";
+            iframe.height = "315";
+            iframe.title = "YouTube video player";
+            iframe.frameBorder = "0";
+            iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+            iframe.allowFullscreen = true;
+
+            // Replace the placeholder with the iframe
+            placeholder.innerHTML = ''; // Clear the existing content
+            placeholder.appendChild(iframe);
+        });
+    });
+});
 
 //Light/Dark Mode Toggle
 document.addEventListener("DOMContentLoaded", () => {
