@@ -76,38 +76,54 @@ section {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center; /* Center-align all text within sections */
 }
+
 h2 {
     !font-family: "Poppins", serif;
     !font-weight: 700;
     !font-style: normal;
 }
+
 section h2 {
     font-size: 1.5rem;
     margin-bottom: 10px;
     color: #005f73;
     text-align: center; /* Ensure section titles are centered */
 }
-/* work out collapse */
-/* .workout-container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px 0;
+
+/* Styling for the collapsible heading */
+.collapsible-heading {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    font-size: 1.5rem;
 }
 
+/* icon toggled */
+.toggle-icon {
+    font-size: 1.2rem;
+    transition: transform 0.3s;
+}
+
+/* Rotated icon when collapsed */
+.collapsed .toggle-icon {
+    transform: rotate(-90deg);
+}
+
+/* Visible section content when expanded */
+.workout-section.active {
+    display: block;
+}
+/* Hidden section content (collapsed by default) */
 .workout-section {
-    padding: 20px;
-    background-color: #fff;
-    margin: 10px 0;
-    height: 0;
-    opacity: 0;
+    display: none;
     overflow: hidden;
-    transition: height 0.5s ease-out, opacity 0.3s ease-out;
+    transition: max-height 0.3s ease-out;
 }
 
-.workout-section.visible {
-    height: auto;
-    opacity: 1;
-} */
 .exercise {
     margin-bottom: 20px;
     text-align: center; /* Center-align individual exercises */
