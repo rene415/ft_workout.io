@@ -1,3 +1,24 @@
+// menu cliking on mobile
+document.querySelectorAll('#menu > ul > li > a').forEach(menuItem => {
+    menuItem.addEventListener('click', function(event) {
+        // Check if the clicked menu item has a submenu
+        const submenu = this.nextElementSibling;
+        if (submenu && submenu.classList.contains('submenu')) {
+            event.preventDefault(); // Prevent navigation
+            submenu.classList.toggle('active'); // Toggle the submenu visibility
+        }
+    });
+});
+
+// Add the styles for the "active" class
+const style = document.createElement('style');
+style.innerHTML = `
+    .submenu.active {
+        display: block !important;
+    }
+`;
+document.head.appendChild(style);
+
 // JS for workout collapsable section
 document.addEventListener("DOMContentLoaded", () => {
     // Select all headings with the collapsible class

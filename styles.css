@@ -63,6 +63,92 @@ nav ul li a:hover {
     color: #005f73;
 }
 
+/* General styles for the nav menu */
+#menu {
+    background-color: #333; /* Dark background for the nav */
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#menu ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Flex display for desktop view */
+    justify-content: space-around; /* Spread items out */
+}
+
+#menu li {
+    display: inline-block; /* Inline display for horizontal layout */
+    position: relative; /* Needed for absolute positioning of the sub-menu */
+}
+
+#menu a {
+    color: white; /* White text for the links */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 15px;
+    display: block;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+#menu a:hover {
+    background-color: #555; /* Add hover effect for better interactivity */
+}
+
+/* Submenu styling */
+.submenu {
+    display: none; /* Hide the submenu by default */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444; /* Dark background for the submenu */
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 200px; /* Submenu width */
+}
+
+.submenu li {
+    display: block; /* Stack the items vertically */
+}
+
+.submenu a {
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+#menu li:hover .submenu {
+    display: block; /* Show the submenu when hovering over the parent list item */
+}
+
+/* Styles for mobile */
+@media (max-width: 768px) {
+    #menu ul {
+        display: block; /* Stack the items vertically */
+        text-align: center; /* Center the items */
+    }
+
+    #menu li {
+        margin-bottom: 15px; /* Add space between the list items */
+    }
+
+    #menu a {
+        padding: 15px; /* Larger padding for easier tap */
+        font-size: 18px; /* Bigger font for readability */
+        border-radius: 5px; /* Round the corners of the links */
+    }
+
+    .submenu {
+        position: static; /* Make the submenu stack on top for mobile */
+        width: 100%; /* Take full width of the parent */
+    }
+
+    .submenu a {
+        padding: 10px 0; /* Reduce padding for mobile */
+    }
+}
+
+
 /* Main Sections */
 main {
     margin-top: 20px;
